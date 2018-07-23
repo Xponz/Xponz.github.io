@@ -30,7 +30,7 @@ public final class Constants {
     public static final int MIN_TRANSACTION_SIZE = 176;
     public static final int MAX_PAYLOAD_LENGTH = MAX_NUMBER_OF_TRANSACTIONS * MIN_TRANSACTION_SIZE;
     public static final long MAX_BALANCE_NXT = 1000000000;
-    public static final long ONE_NXT = 100000000;
+    public static final long ONE_NXT = 100000000 / 21;
     public static final long MAX_BALANCE_NQT = MAX_BALANCE_NXT * ONE_NXT;
 
     public static final int BLOCK_TIME = 60;
